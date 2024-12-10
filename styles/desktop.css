@@ -1,0 +1,394 @@
+/* estilo do mobile a partir da linha 235 */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+h1 {
+    font-size: 35px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+.cabecalho-mobile {
+    display: none;
+}
+
+.cabecalho-desktop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #8f37e1;
+    width: 100%;
+    height: 90px;
+}
+
+.menu-mobile {
+    display: none;
+}
+
+.menu-desktop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.cabecalho-desktop ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.btn {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    margin: 30px;
+}
+
+.btn:hover {
+    scale: 1.15;
+    top: -4px;
+    color: indigo;
+    transition: all .2s ease-in-out
+}
+
+
+/* inicio do estilo pagina sobre */
+.sobre {
+    display: flex;
+    flex-direction: row;
+    background-color: #222121;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.text-1 {
+    margin: 20px;
+    font-size: 22px;
+    color: white;
+    width: 110%;
+    height: 100%;
+}
+
+.text-2 {
+    margin: 22px;
+    font-size: 25px;
+    text-align: center;
+    width: 110%;
+}
+
+.text-1 span {
+    color: #ffee05;
+}
+
+.texto-sobre .text-1 {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.img-sobre {
+    width: 420px;
+    padding: 80px;
+}
+
+.btn-contato {
+    text-decoration: none;
+    font-size: 25px;
+    background-color: #824fb1;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 30px;
+}
+
+.btn-contato:hover {
+    scale: 1.15;
+    color: #0a7900;
+    background-color: #74fb68;
+    top: -4px;
+    box-shadow: 0 5px 5px #999;
+    transition: all .2s ease-in-out
+}
+
+/* fim estilo sobre  */
+
+/* inicio estilo skills */
+.skills {
+    background-color: #adadad;
+    width: 100;
+    height: 100%;
+    padding: 20px;
+}
+
+.skills .campo-h1 {
+    background-color: #8f37e1;
+}
+
+.skills h1 {
+    width: 100%;
+    color: white;
+    font-size: 40px;
+}
+
+.texto-skills {
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #824fb1;
+    border-radius: 10px;
+    background-color: #e9e7e7;
+}
+
+.texto-skills:hover {
+    scale: 1.05;
+    top: -4px;
+    box-shadow: 0 6px 6px #ffffff;
+    transition: all .2s ease-in-out
+}
+
+.skills-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.skills .skills-list img {
+    width: 70px;
+}
+
+/* fim estilo skills */
+
+.portfolio {
+    padding: 40px;
+    background-color: #824fb1;
+    text-align: center;
+}
+
+.portfolio h2 {
+    font-size: 2.5rem;
+    color: white;
+
+}
+
+.texto-portfolio p {
+    padding: 25px;
+    color: white;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.service-item {
+    cursor: pointer;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px;
+}
+
+.service-item:hover {
+    scale: 1.05;
+    top: -4px;
+    box-shadow: 0 4px 4px #999;
+    transition: all .2s ease-in-out
+}
+
+.service-item h3 {
+    font-size: 1.5rem;
+    color: #824fb1;
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    font-size: 1rem;
+    color: #333;
+}
+
+
+/* fim do estilo de portifolio */
+
+
+.formulario-contato {
+    display: flex;
+    flex-direction: column;
+    background-color: #adadad;
+    width: 100%;
+    color: white;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.formulario-contato h1 {
+    margin: 20 10 10 10px;
+    margin: 20px;
+    color: black;
+}
+
+.formulario-contato .titulo-form {
+    color: #8f37e1;
+}
+
+
+.formulario-contato .caixa-texto-form {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    width: 80%;
+    border-radius: 20px;
+    border: 1px solid #8f37e1;
+}
+
+
+.formulario-contato .caixa-texto-form .texto-form {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 10px;
+    margin: 10px;
+    gap: 10%;
+    border-radius: 20px;
+    width: 80%;
+    border: 1px solid #8f37e1;
+}
+.formulario-contato .caixa-texto-form .texto-form:hover{
+    background-color: #8f37e1;
+    color: white;
+}
+.formulario-contato .caixa-texto-form p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 80vw;
+    color: black;
+    font-size: 20px;
+}
+
+.formulario-contato .caixa-titulo-form h1 {
+    color: black;
+}
+
+.formulario-contato .caixa-titulo-form{
+    width: 80%;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid #8f37e1;
+    margin-bottom: 10px;
+} 
+
+.caixa-formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 60%;
+    height: 80%;
+}
+.caixa-formulario p{
+    color: black;
+    font-size: 18px;
+}
+.caixa-formulario input {
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.caixa-formulario textarea {
+    width: 400px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.caixa-formulario .btn-contato {
+    margin: 30px;
+}
+
+.btn-enviar-form {
+    size: 40px;
+    text-decoration: none;
+    background-color: #824fb1;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 30px;
+}
+
+.btn-enviar-form:hover {
+    scale: 1.1;
+    top: -4px;
+    box-shadow: 0 5px 5px #999;
+    transition: all .2s ease-in-out;
+    color: #0a7900;
+    background-color: #74fb68;
+}
+
+/* fim do estilo do formulario de contato */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 25%;
+    background-color: #824fb1;
+    color: white;
+    gap: 20px;
+}
+
+.footer .img-redes-sociais i {
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+    margin: 20px;
+    color: white;
+}
+
+.footer .img-redes-sociais {
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.footer p {
+    font-size: 12px;
+    margin: 10px;
+}
+
+.img-redes-sociais a {
+    text-decoration: none;
+}

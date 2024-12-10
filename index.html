@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="./styles/desktop.css">
+    <link rel="stylesheet" type="text/css" href="./styles/mobile.css">
+    <script src="./mobile-navbar.js" defer></script>
+    <script src="./rolagem_de_pagina.js" defer></script>
+    <title>HSO - SOLUÇÕES EM SOFTWARE</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+
+        <section class="cabecalho-desktop">
+
+            <article class="menu-desktop">
+                <img class="logo" src="./assets/img/logo.png" alt="Logo do site">
+                <nav>
+                    <ul class="nav-list">
+                        <li><a class="btn" href="#home">HOME</a></li>
+                        <li><a class="btn" href="#sobre">SOBRE</a></li>
+                        <li><a class="btn" href="#skills">HABILIDADES</a></li>
+                        <li><a class="btn" href="#portfolio">PORTFÓLIO</a></li>
+                        <li><a class="btn" href="#formulario-contato">CONTATO</a></li>
+                    </ul>
+                </nav>
+
+            </article>
+        </section>
+
+        <section>
+
+            <article class="menu-cell">
+                <div class="cabecalho-mobile">
+
+                    <img class="logo" src="./assets/img/logo.png" alt="Logo do site">
+
+                    <nav class="btn-abrir-menu">
+                        <button id="btn-menu" class="btn-menu"> <i class="bi bi-list"></i></button>
+                    </nav>
+
+                </div>
+
+                <nav class="menu-mobile" id="menu-mobile">
+
+                    <nav class="btn-fechar-menu">
+                        <button class="btn-fechar" id="btn-fechar"> <i class="bi bi-x"></i></button>
+                    </nav>
+
+                    <ul class="nav-list" id="menu">
+                        <li><a class="btn-ul-mobile" href="#home">HOME</a></li>
+                        <li><a class="btn-ul-mobile" href="#sobre">SOBRE</a></li>
+                        <li><a class="btn-ul-mobile" href="#skills">HABILIDADES</a></li>
+                        <li><a class="btn-ul-mobile" href="#portfolio">PORTFÓLIO</a></li>
+                        <li><a class="btn-ul-mobile" href="#formulario-contato">CONTATO</a></li>
+                    </ul>
+
+                </nav>
+                <div class="overlay-menu" id="overlay-menu"></div>
+            </article>
+
+        </section>
+
+    </header>
+
+    <main>
+
+        <section class="sobre" id="sobre">
+
+            <article class="texto-sobre">
+                <h1> Sobre </h1>
+                <div class="text-1">
+                    <P>
+                        Minha missão é transformar ideias em realidade, desenvolvendo sistemas, sites e ferramentas
+                        personalizadas que atendam exatamente às suas necessidades. Utilizo as tecnologias mais modernas
+                        para entregar resultados práticos, funcionais e alinhados aos seus objetivos.
+                    </P>
+                </div>
+                <div class="text-1">
+                    <p>
+                        Se você tem uma ideia ou um problema para resolver, estou aqui para ajudar.
+                        <span>Vamos juntos criar algo incrível?</span>
+                        <br>
+                        <br>
+                        <a class="btn-contato" href="#formulario-contato">Entrar em contato</a>
+                    </p>
+                </div>
+
+
+
+
+            </article>
+
+            <figcaption>
+
+                <img class="img-sobre" src="./assets/img/img-sobre.png" alt="Criação de site">
+
+            </figcaption>
+
+        </section>
+
+        <section class="skills" id="skills">
+            <div class="campo-h1">
+                <h1>Habilidades</h1>
+            </div>
+
+            <article class="skills-list">
+                <div class="texto-skills">
+                    <img src="/assets/img/html.png" alt="">
+                    <p>Com o HTML, crio uma estrutura de páginas e organização ou conteúdo de
+                        forma clara e funcional. Essa linguagem é a base de qualquer projeto web,
+                        permitindo desenvolver desde simples sites informativos até plataformas
+                        mais complexas e dinâmicas.</p>
+                </div>
+
+                <div class="texto-skills">
+                    <img src="/assets/img/css.png" alt="">
+                    <p>Utilizando CSS, dou vida ao design das páginas, aplicando estilos que
+                        tornam os projetos visualmente atraentes e profissionais. Além disso,
+                        garanto que as interfaces sejam responsivas, adaptando-se perfeitamente
+                        a diferentes tamanhos de tela e dispositivos.</p>
+                </div>
+
+                <div class="texto-skills">
+                    <img src="/assets/img/javascript.png" alt="">
+                    <p>Com JavaScript, adiciono interatividade e dinamismo às páginas. Essa linguagem
+                        permite criar experiências ricas para o usuário, como animações, validações de
+                        formulários e interações em tempo real, transformando sites simples em aplicações
+                        modernas e envolventes.</p>
+                </div>
+
+                <div class="texto-skills">
+                    <img src="/assets/img/python.png" alt="">
+                    <p>Python é uma ferramenta poderosa que utilizo para desenvolver soluções criativas
+                        e funcionais. Seja no desenvolvimento web, em automação de tarefas ou em projetos
+                        de dados, essa linguagem é essencial para criar sistemas inteligentes e eficientes.</p>
+                </div>
+
+                <div class="texto-skills">
+                    <img src="/assets/img/node-js.png" alt="">
+                    <p>Com Node.js, desenvolvo servidores rápidos e confiáveis ​​para aplicações web. Essa
+                        tecnologia permite construir APIs robustas e sistemas escaláveis, garantindo alto
+                        desempenho mesmo em projetos que demandam grande processamento ou acessos simultâneos.</p>
+                </div>
+
+
+
+            </article>
+
+        </section>
+
+        <section class="portfolio" id="portfolio">
+
+            <h2>Meus Serviços</h2>
+
+            <div class="texto-portfolio">
+                <p>
+                    Aqui estão alguns dos projetos que desenvolvi, cada um deles pensado para resolver problemas reais e
+                    oferecer experiências práticas e eficientes. Desde sistemas personalizados e sites modernos até
+                    soluções automatizadas, cada trabalho reflete minha dedicação, atenção aos detalhes e compromisso
+                    com a qualidade. Acredito que cada projeto é uma oportunidade de criar algo único, e fico animado em
+                    compartilhar um pouco do que já construí.
+                </p>
+            </div>
+
+            <div class="services">
+                <div class="service-item">
+                    <h3>Sistemas Personalizados</h3>
+                    <p>Desenvolvimento de sistemas CRUD para cadastro e gerenciamento de informações, como sistemas
+                        de controle de estoque, agendas e relatórios dinâmicos.</p>
+                </div>
+
+                <div class="service-item">
+                    <h3>Sites Modernos</h3>
+                    <p>Criação de landing pages atraentes, blogs responsivos e sites institucionais com design
+                        profissional, otimizados para SEO e carregamento rápido.</p>
+                </div>
+
+                <div class="service-item">
+                    <h3>Automação de Processos</h3>
+                    <p>Scripts para automatizar tarefas repetitivas, como web scraping, organização de arquivos,
+                        geração de relatórios e envio de e-mails automáticos.</p>
+                </div>
+
+                <div class="service-item">
+                    <h3>APIs Personalizadas</h3>
+                    <p>Desenvolvimento e integração de APIs para conectar serviços e facilitar a comunicação entre
+                        sistemas de forma eficiente e segura.</p>
+                </div>
+
+                <div class="service-item">
+                    <h3>Consultoria e Suporte Técnico</h3>
+                    <p>Orientação para a escolha de tecnologias, melhorias de desempenho e manutenção de projetos
+                        existentes.</p>
+                </div>
+
+                <div class="service-item">
+                    <h3>Prototipação de Interfaces</h3>
+                    <p>Criação de layouts interativos e navegáveis para visualizar ideias antes do desenvolvimento
+                        completo, garantindo que o resultado final esteja alinhado com as expectativas.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="formulario-contato" class="formulario-contato">
+
+            <div class="caixa-titulo-form">
+
+                <H1>Você precisa de uma solução que <br><span class="titulo-form">transforme seu negócio?</span> 💡
+                </H1>
+
+
+            </div>
+            <div class="caixa-texto-form">
+               
+                    <P class="texto-form">
+
+                        Seja para automatizar processos, desenvolver sistemas web sob medida ou criar software que
+                        impulsione
+                        sua produtividade, eu tenho a solução ideal para você!</P>
+                    <p class="texto-form">
+
+                        Com expertise em programação, entrego projetos personalizados, eficientes e inovadores que
+                        atendem
+                        exatamente às suas necessidades.
+                    </p>
+                
+                    <p class="texto-form"> 📩 Solicite agora mesmo um orçamento e descubra como posso ajudar sua empresa
+                        a
+                        crescer com
+                        tecnologia
+                        de ponta.
+                    </p>
+                    <p class="texto-form">
+
+                        Não deixe essa oportunidade passar. Vamos conversar!🚀</P>
+               
+            </div>
+
+
+
+            <h1>SOLICITE UM ORÇAMENTO </h1>
+
+            <div class="caixa-formulario">
+
+                <p>Digite seu Nome:</p>
+                <input class="campo-usuario" type="text">
+
+                <p>Digite seu Email:</p>
+                <input class="campo-usuario" type="text">
+
+                <p>Confirme seu Email:</p>
+                <input class="campo-usuario" type="text">
+
+                <p>Descreva com detalhes o seu projeto ou sua necessidades:</p>
+                <textarea name="ideia-cliente" id="ideia-cliente"></textarea>
+
+                <button class="btn-enviar-form" href="#enviar-form" id="enviar-form">SOLICITAR ORÇAMENTO</button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="footer" id="footer">
+
+        <ul class="img-redes-sociais">
+            <div>
+                <a href="https://www.instagram.com/@alex.oliveira.dev" target="_blank">
+                    <i class="bi bi-instagram"></i>
+            </div>
+            <div>
+                <a href="https://www.tiktok.com/@alex.oliveira.dev" target="_blank">
+                    <i class="bi bi-tiktok"></i>
+                </a>
+            </div>
+            <div>
+                <a href="https://github.com/alex-oliveira-dev" target="_blank">
+                    <i class="bi bi-github"></i>
+                </a>
+            </div>
+
+        </ul>
+        <div class="copy">
+            <p>&copy; 2024 HSO Soluções em Software. Todos os direitos reservados. </p>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
